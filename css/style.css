@@ -1,13 +1,6 @@
-.nav {
-  width: 100vw;
-  display: flex;
-  justify-content:flex-end;
-  border: solid 1px black;
-  position: fixed;
-}
 a {
-  border: solid 1px black;
-  margin: 5vh 15vh 0vh 0vh;
+  font-weight: bold;
+  margin: 3vh 0vh 0vh 3vh;
   padding: 2vh;
   color: #c5aa6a;
   font-size:25px;
@@ -22,5 +15,18 @@ a:hover{
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image:	url(../img/programming.jpg);
+  /*background-image:	url(../img/programming.png);*/
+  background-color: #222222;
+    display: flex;
+    justify-content:center;
+    
+}
+h1{
+  font-size: 100px;
+  font-family: 'VT323',serif;
+  color: green;
+
+}
+h3{
+  font-size: 30px;
 }
