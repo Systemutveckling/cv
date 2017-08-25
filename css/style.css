@@ -1,32 +1,53 @@
-a {
-  font-weight: bold;
-  margin: 3vh 0vh 0vh 3vh;
-  padding: 2vh;
-  color: #c5aa6a;
-  font-size:25px;
-  text-decoration: none;
+h1,h2,h3{
+
+  font-family: 'VT323',serif;
+
 }
 
-a:hover{
-  text-decoration: underline;
+.background-color{
+  background-color: rgba(34, 34, 34, 0.89);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-item-green,.flex-item-purple,.flex-item-orange{
+  text-align: center;
+  border-color: white;
+
+
+  /* Only for debuging */
+    border-style: solid;
+    border-width: 5px;
+  /* Only for debuging */
 }
 
 .page1{
   height: 100vh;
   background-size: cover;
   background-position: center;
-  /*background-image:	url(../img/programming.png);*/
+  background-image:	url(../img/programming.png);
   background-color: #222222;
     display: flex;
-    justify-content:center;
-    
-}
-h1{
-  font-size: 100px;
-  font-family: 'VT323',serif;
-  color: green;
+    flex-direction: column;
 
 }
-h3{
-  font-size: 30px;
+.flex-item-green{
+color: green;
+  font-size: 100px;
+
+}
+
+.flex-item-purple{
+  color: purple;
+  font-size: 50px;
+
+}
+
+.flex-item-orange{
+
+    color: orange;
+    font-size: 100px;
 }
