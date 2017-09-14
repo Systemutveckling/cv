@@ -17,6 +17,7 @@ h1,h2,h3{
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+
 }
 
 .page1{
@@ -25,7 +26,7 @@ h1,h2,h3{
   background-position: center;
   background-image:	url(../img/programming.png);
   background-color: #222222;
-
+  background-attachment: fixed;
 
 }
 .flex-item{
@@ -36,24 +37,34 @@ h1,h2,h3{
 
 }
 .content{
-  width: 100%;
-  height: 40%;
+  width: 100vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
 
 }
 
 .flex-content-box{
-  margin:0px 50px 0px 50px;
   text-align: center;
+  flex:1;
   color: #A4A27A;
-  font-size: 80px;
+  font-size: 32px;
+  margin: 50px 100px 30px 90px;
   background-color: #364C6E;
 }
 
+
+.page2{
+  background-color: #222222;
+  height: 100vh;
+
+}
 p{
   font-style: italic;
   font-size: 35px;
   color: #4F898F;
+}
+h2{
+  color: green;
+  text-align: center;
 }
